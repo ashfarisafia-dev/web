@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFFFFF"/>
+  <g transform="translate(200, 150)">
+    <path d="M-25 10 L-20 -40 C-20 -50, 20 -50, 20 -40 L25 10 C25 20, -25 20, -25 10Z" fill="none" stroke="#8B5E3C" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-25 10 C-25 20, 25 20, 25 10" fill="none" stroke="#8B5E3C" stroke-width="2.5"/>
+    <path d="M-8 -35 C-8 -42, 0 -45, 0 -35 C0 -45, 8 -42, 8 -35 C8 -20, 0 -10, 0 -10 C0 -10, -8 -20, -8 -35Z" fill="#8B5E3C" opacity="0.7"/>
+    <path d="M-4 -30 C-4 -36, 0 -38, 0 -30 C0 -38, 4 -36, 4 -30 C4 -22, 0 -14, 0 -14 C0 -14, -4 -22, -4 -30Z" fill="#C49171" opacity="0.4"/>
+    <path d="M-30 -10 L-35 -20 M-25 -5 L-30 -15" stroke="#8B5E3C" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    <path d="M25 -10 L30 -20 M20 -5 L25 -15" stroke="#8B5E3C" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    <line x1="-8" y1="5" x2="8" y2="5" stroke="#FDF8F3" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-5" cy="-3" r="1.8" fill="#FDF8F3" opacity="0.7"/>
+    <circle cx="5" cy="-4" r="1.4" fill="#FDF8F3" opacity="0.7"/>
+  </g>
+  <text x="200" y="280" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="44" font-weight="700" fill="#3E2723">HEARTH</text>
+  <text x="200" y="314" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="44" font-weight="400" fill="#8B5E3C">&amp; BEAN</text>
+  <line x1="100" y1="332" x2="300" y2="332" stroke="#C49171" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="200" y="354" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" letter-spacing="0.2em" fill="#795548">ARTISAN COFFEE ROASTERS</text>
+</svg>

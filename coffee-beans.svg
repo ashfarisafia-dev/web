@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="rgba(212,165,116,0.15)"/>
+      <stop offset="100%" stop-color="rgba(212,165,116,0)"/>
+    </radialGradient>
+    <radialGradient id="beanGrad1" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#C49171"/>
+      <stop offset="100%" stop-color="#8B5E3C"/>
+    </radialGradient>
+    <radialGradient id="beanGrad2" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#B07E54"/>
+      <stop offset="100%" stop-color="#6B3A2A"/>
+    </radialGradient>
+    <radialGradient id="beanGrad3" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#D4A574"/>
+      <stop offset="100%" stop-color="#9B6E4C"/>
+    </radialGradient>
+    <radialGradient id="beanGrad4" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#9B6E4C"/>
+      <stop offset="100%" stop-color="#5C3322"/>
+    </radialGradient>
+    <radialGradient id="beanGrad5" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#D4A574"/>
+      <stop offset="100%" stop-color="#8B5E3C"/>
+    </radialGradient>
+    <radialGradient id="beanGrad6" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#C49171"/>
+      <stop offset="100%" stop-color="#7A4A2E"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#3E2723" flood-opacity="0.2"/>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="#FDF3E7"/>
+  <rect width="800" height="600" fill="url(#bgGlow)"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="400" cy="340" rx="300" ry="200" fill="#D4A574" opacity="0.15"/>
+  </g>
+  <!-- Bean cluster - back layer -->
+  <ellipse cx="280" cy="300" rx="55" ry="40" fill="url(#beanGrad2)" transform="rotate(-25 280 300)" filter="url(#shadow)"/>
+  <ellipse cx="350" cy="260" rx="50" ry="38" fill="url(#beanGrad4)" transform="rotate(-10 350 260)" filter="url(#shadow)"/>
+  <ellipse cx="480" cy="310" rx="52" ry="38" fill="url(#beanGrad1)" transform="rotate(15 480 310)" filter="url(#shadow)"/>
+  <ellipse cx="520" cy="370" rx="48" ry="36" fill="url(#beanGrad6)" transform="rotate(30 520 370)" filter="url(#shadow)"/>
+  <ellipse cx="300" cy="380" rx="46" ry="34" fill="url(#beanGrad3)" transform="rotate(-35 300 380)" filter="url(#shadow)"/>
+  <!-- Bean cluster - middle layer -->
+  <ellipse cx="340" cy="340" rx="58" ry="42" fill="url(#beanGrad1)" transform="rotate(5 340 340)" filter="url(#shadow)"/>
+  <ellipse cx="420" cy="290" rx="54" ry="40" fill="url(#beanGrad5)" transform="rotate(-20 420 290)" filter="url(#shadow)"/>
+  <ellipse cx="500" cy="340" rx="56" ry="40" fill="url(#beanGrad2)" transform="rotate(10 500 340)" filter="url(#shadow)"/>
+  <ellipse cx="380" cy="400" rx="50" ry="36" fill="url(#beanGrad4)" transform="rotate(-15 380 400)" filter="url(#shadow)"/>
+  <ellipse cx="250" cy="340" rx="48" ry="35" fill="url(#beanGrad3)" transform="rotate(20 250 340)" filter="url(#shadow)"/>
+  <ellipse cx="440" cy="380" rx="52" ry="38" fill="url(#beanGrad6)" transform="rotate(8 440 380)" filter="url(#shadow)"/>
+  <!-- Bean cluster - front layer -->
+  <ellipse cx="360" cy="310" rx="60" ry="44" fill="url(#beanGrad1)" transform="rotate(-5 360 310)" filter="url(#shadow)"/>
+  <ellipse cx="440" cy="320" rx="58" ry="42" fill="url(#beanGrad5)" transform="rotate(12 440 320)" filter="url(#shadow)"/>
+  <ellipse cx="310" cy="330" rx="55" ry="40" fill="url(#beanGrad3)" transform="rotate(-18 310 330)" filter="url(#shadow)"/>
+  <ellipse cx="480" cy="360" rx="54" ry="38" fill="url(#beanGrad2)" transform="rotate(22 480 360)" filter="url(#shadow)"/>
+  <!-- Bean highlight reflections -->
+  <ellipse cx="355" cy="305" rx="18" ry="8" fill="#FDF8F3" opacity="0.2" transform="rotate(-5 355 305)"/>
+  <ellipse cx="435" cy="315" rx="16" ry="7" fill="#FDF8F3" opacity="0.2" transform="rotate(12 435 315)"/>
+  <ellipse cx="305" cy="325" rx="15" ry="6" fill="#FDF8F3" opacity="0.15" transform="rotate(-18 305 325)"/>
+  <ellipse cx="475" cy="355" rx="14" ry="6" fill="#FDF8F3" opacity="0.15" transform="rotate(22 475 355)"/>
+  <!-- Surface particles / dust -->
+  <circle cx="180" cy="180" r="2" fill="#D4A574" opacity="0.4"/>
+  <circle cx="620" cy="200" r="1.8" fill="#C49171" opacity="0.3"/>
+  <circle cx="550" cy="150" r="1.5" fill="#E8B4A0" opacity="0.35"/>
+  <circle cx="120" cy="400" r="2" fill="#D4A574" opacity="0.25"/>
+  <circle cx="680" cy="420" r="1.5" fill="#C49171" opacity="0.3"/>
+  <circle cx="350" cy="120" r="1.8" fill="#E8B4A0" opacity="0.3"/>
+  <circle cx="500" cy="100" r="1.5" fill="#D4A574" opacity="0.25"/>
+  <circle cx="200" cy="500" r="1.8" fill="#C49171" opacity="0.2"/>
+  <circle cx="600" cy="500" r="2" fill="#E8B4A0" opacity="0.2"/>
+  <circle cx="650" cy="250" r="1.2" fill="#D4A574" opacity="0.3"/>
+  <circle cx="150" cy="250" r="1.5" fill="#C49171" opacity="0.25"/>
+  <!-- Steam wisps -->
+  <path d="M340 260 C340 240, 350 230, 340 210" fill="none" stroke="#FDF8F3" stroke-width="2" opacity="0.15" stroke-linecap="round"/>
+  <path d="M420 250 C420 230, 430 220, 420 200" fill="none" stroke="#FDF8F3" stroke-width="1.5" opacity="0.12" stroke-linecap="round"/>
+  <path d="M380 240 C380 225, 390 215, 380 195" fill="none" stroke="#FDF8F3" stroke-width="1" opacity="0.1" stroke-linecap="round"/>
+</svg>
